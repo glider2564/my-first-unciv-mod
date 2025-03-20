@@ -3,7 +3,7 @@
         "name": "Neuroil",
         "leaderName": "'unknown'",
 
-        "startBias": [Grassland],
+        "startBias": [Tundra],
         "prefererredVictoryType": "Domination",
         "startIntroPart1": "...",
         "startIntroPart2": "...",
@@ -12,8 +12,11 @@
         "defeated": "...",
         "introduction": "...",
         "tradeRequest": "...",
-        "outerColor": [255,0,0],
-        "innerColor": [27,0,48],
+        "innerColor": [255,0,0],
+        "outerColor": [27,0,48],
         "cities": ["Erlin","Walf","Black Ocean","Ebel lake","Gellin","Nureburg","Ostar","Prega","Karlan","Nogburg","Sirmid","Vennea","Groir","Annd","Vizley"]
+
+        "uniqueName": "..."
+        "uniques": ["All healing effects doubled","[+20]% XP gained from combat"]
     }
 ]
