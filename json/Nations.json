@@ -1,1 +1,19 @@
+[
+    {
+        "name": "Neuroil",
+        "leaderName": "'unknown'",
 
+        "startBias": [Tundra],
+        "prefererredVictoryType": "Domination",
+        "startIntroPart1": "...",
+        "startIntroPart2": "...",
+        "declaringWar": "...",
+        "attacked": "...",
+        "defeated": "...",
+        "introduction": "...",
+        "tradeRequest": "...",
+        "outerColor": [255,0,0],
+        "innerColor": [27,0,48],
+        "cities": ["Erlin","Walf","Black Ocean","Ebel lake","Gellin","Nureburg","Ostar","Prega","Karlan","Nogburg","Sirmid","Vennea","Groir","Annd","Vizley"]
+    }
+]
