@@ -1,13 +1,14 @@
 [
   {
-		"name": "Land armor 'turtle'",
+		"name": "'turtle'",
 		"unitType": "Armored",
-		"replaces": "Landship",
-		"uniqueTo": "Neuroil",
-		"movement": 3,
+		"movement": 5,
 		"strength": 75,
-		"cost": 275,
+		"cost": 300,
 		"requiredTech": "Combustion",
+		"upgradesTo": "Tank",
+		"obsoleteTech": "Combined Arms",
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
 	}
 ]
