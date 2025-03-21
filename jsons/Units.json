@@ -26,14 +26,15 @@
       "attackSound": "missile"
   }
   {
-      "name": "'transporter'",
-      "unitType": "Helicopter",
+      "name": "'Capital class'",
+      "unitType": "Aircraft Carrier",
       "uniqueTo": "Neuroil",
       "replaces": "Carrier",
-      "movement": 15,
-      "strength": 50,
-      "cost": 800
+      "movement": 7,
+      "strength": 200,
+      "cost": 5000,
       "requiredTech": "Electronics",
-      "uniques": ["Cannot attack","Can carry [3] [Land] units","No defensive terrain bonus","All tiles cost 1 movement","Ignores Zone of Control","Unable to capture cities","Never appears as a Barbarian unit","May travel on Water tiles without embarking"],
+      "uniques": ["Can carry [3] [Aircraft] units","No defensive terrain bonus","All tiles cost 1 movement","Unable to capture cities","Never appears as a Barbarian unit","May travel on Water tiles without embarking"],
+      "attackSound": "missile"
   }
 ]
