@@ -8,7 +8,8 @@
       "strength": 75,
       "cost": 400,
       "requiredTech": "Combustion",
-      "uniques": ["Can move after attacking","No defensive terrain bonus","+[25]% strength <when fighting in [Grassland] tiles>"],
+      "uniques": ["Can move after attacking","No defensive terrain bonus","[-20]% Strength <when fighting in [Forest] tiles>"],
+      "promotions": ["shock I"]
       "attackSound": "tankshot"
   }
 ]
