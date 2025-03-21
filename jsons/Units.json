@@ -8,7 +8,7 @@
       "strength": 75,
       "cost": 400,
       "requiredTech": "Combustion",
-      "uniques": ["Can move after attacking","No defensive terrain bonus","[-20]% Strength <when fighting in [Forest] tiles>"],
+      "uniques": ["Can move after attacking","No defensive terrain bonus","[-15]% Strength <when fighting in [Forest] tiles>","[-15]% Strength <when fighting in [Jungle] tiles>","[+20]% Strength <vs [Wounded] units>","[-15]% Strength <when fighting in [Jungle] tiles>"],
       "attackSound": "tankshot"
   }
 ]
