@@ -24,17 +24,17 @@
       "requiredTech": "Combined Arms",
       "uniques": ["Can move after attacking","No defensive terrain bonus","[-15]% Strength <when fighting in [Forest] tiles>","[-15]% Strength <when fighting in [Jungle] tiles>","[+20]% Strength <vs [Wounded] units>","[+20]% Strength <when fighting in [Open terrain] tiles>"],
       "attackSound": "missile"
-  }
+  },
   {
-      "name": "'Capital class'",
-      "unitType": "Aircraft Carrier",
+      "name": "'Large-aerial class'",
+      "unitType": "Helicopter",
       "uniqueTo": "Neuroil",
-      "replaces": "Carrier",
-      "movement": 7,
+      "replaces": "Fighter",
+      "movement": 8,
       "strength": 200,
-      "cost": 5000,
-      "requiredTech": "Electronics",
-      "uniques": ["Can carry [3] [Aircraft] units","No defensive terrain bonus","All tiles cost 1 movement","Unable to capture cities","Never appears as a Barbarian unit","May travel on Water tiles without embarking"],
+      "cost": 1200,
+      "requiredTech": "Radar",
+      "uniques": ["No defensive terrain bonus","All tiles cost 1 movement","Unable to capture cities","Never appears as a Barbarian unit","May travel on Water tiles without embarking"],
       "attackSound": "missile"
   }
 ]
