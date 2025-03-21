@@ -25,4 +25,15 @@
       "uniques": ["Can move after attacking","No defensive terrain bonus","[-15]% Strength <when fighting in [Forest] tiles>","[-15]% Strength <when fighting in [Jungle] tiles>","[+20]% Strength <vs [Wounded] units>","[+20]% Strength <when fighting in [Open terrain] tiles>"],
       "attackSound": "missile"
   }
+  {
+      "name": "'transporter'",
+      "unitType": "Helicopter",
+      "uniqueTo": "Neuroil",
+      "replaces": "Carrier",
+      "movement": 15,
+      "strength": 50,
+      "cost": 800
+      "requiredTech": "Electronics",
+      "uniques": ["Cannot attack","Can carry [3] [Land] units","No defensive terrain bonus","All tiles cost 1 movement","Ignores Zone of Control","Unable to capture cities","Never appears as a Barbarian unit","May travel on Water tiles without embarking"],
+  }
 ]
