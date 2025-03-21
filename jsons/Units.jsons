@@ -1,16 +1,16 @@
 [
   {
-		"name": "'turtle'",
-		"unitType": "Armored",
-                "uniqueTo": "Neuroil",
-                "replaces": "Landship",
-		"movement": 5,
-		"strength": 75,
-		"cost": 300,
-		"requiredTech": "Combustion",
-		"upgradesTo": "Tank",
-		"obsoleteTech": "Combined Arms",
-		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
-		"attackSound": "tankshot"
-	}
+	"name": "'turtle'",
+	"unitType": "Armored",
+        "uniqueTo": "Neuroil",
+        "replaces": "Landship",
+	"movement": 5,
+	"strength": 75,
+	"cost": 300,
+	"requiredTech": "Combustion",
+	"upgradesTo": "Tank",
+	"obsoleteTech": "Combined Arms",
+	"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
+	"attackSound": "tankshot"
+  },
 ]
