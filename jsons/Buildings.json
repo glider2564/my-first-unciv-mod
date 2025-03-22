@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Iron Rcycler",
+    "cost": "200",
+    "uniqueTo": "Neuroil",
+    "uniques": ["Provides [1] [Energy]"],
+    "requiredResource": "Iron",
+    "requiredTech": "Iron Working",
+  },
+  {
+    "name": "Coal Rcycler",
+    "cost": "475",
+    "uniqueTo": "Neuroil",
+    "uniques": ["Provides [3] [Energy]"],
+    "requiredResource": "Coal",
+    "requiredTech": "Industrialization",
+  }, 
+  {
+    "name": "Oil Rcycler",
+    "cost": "750",
+    "uniqueTo": "Neuroil",
+    "uniques": ["Provides [5] [Energy]"],
+    "requiredResource": "Oil",
+    "requiredTech": "Biology",
+  },
+  {
+    "name": "Aluminum Rcycler",
+    "cost": "680",
+    "uniqueTo": "Neuroil",
+    "uniques": ["Provides [4] [Energy]"],
+    "requiredResource": "Aluminum",
+    "requiredTech": "Electricity",
+  }, 
+  {
+    "name": "Uranium Rcycler",
+    "cost": "1250",
+    "uniqueTo": "Neuroil",
+    "uniques": ["Provides [10] [Energy]"],
+    "requiredResource": "Uranium",
+    "requiredTech": "Atomic Theory",
+  },
+]
