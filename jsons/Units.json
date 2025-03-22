@@ -6,8 +6,9 @@
       "uniqueTo": "Neuroil",
       "movement": 4,
       "strength": 75,
-      "cost": 400,
+      "cost": 550,
       "requiredTech": "Combustion",
+      "requiredResource": [ [2] "Energy"]
       "uniques": ["Can move after attacking","No defensive terrain bonus","[-15]% Strength <when fighting in [Forest] tiles>","[-15]% Strength <when fighting in [Jungle] tiles>","[+20]% Strength <vs [Wounded] units>","[+20]% Strength <when fighting in [Open terrain] tiles>"],
       "attackSound": "tankshot"
   },
@@ -20,8 +21,9 @@
       "strength": 100,
       "range": 1,
       "rangedStrength": 90
-      "cost": 650,
+      "cost": 700,
       "requiredTech": "Combined Arms",
+      "requiredResource": [ [4] "Energy"]
       "uniques": ["Can move after attacking","No defensive terrain bonus","[-15]% Strength <when fighting in [Forest] tiles>","[-15]% Strength <when fighting in [Jungle] tiles>","[+20]% Strength <vs [Wounded] units>","[+20]% Strength <when fighting in [Open terrain] tiles>"],
       "attackSound": "missile"
   },
@@ -34,7 +36,8 @@
       "strength": 200,
       "cost": 1200,
       "requiredTech": "Radar",
-      "uniques": ["No defensive terrain bonus","All tiles cost 1 movement","Unable to capture cities","Never appears as a Barbarian unit","May travel on Water tiles without embarking"],
+      "requiredResource": [ [8] "Energy"]
+      "uniques": ["No defensive terrain bonus","All tiles cost 1 movement","Unable to capture cities","May travel on Water tiles without embarking","Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast"],
       "attackSound": "missile"
   }
 ]
