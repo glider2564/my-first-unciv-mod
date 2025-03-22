@@ -1,0 +1,7 @@
+[
+  {
+    "name": "Energy",
+    "resourceType": "Strategic",
+    "uniqueTo": "Neuroil",
+  },
+]
