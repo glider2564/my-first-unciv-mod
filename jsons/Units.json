@@ -5,11 +5,11 @@
       "replaces": "Landship",
       "uniqueTo": "Neuroil",
       "movement": 4,
-      "strength": 75,
+      "strength": 85,
       "cost": 550,
       "requiredTech": "Combustion",
       "requiredResource": "Energy"
-      "uniques": ["Can move after attacking","No defensive terrain bonus","[-15]% Strength <when fighting in [Forest] tiles>","[-15]% Strength <when fighting in [Jungle] tiles>","[+20]% Strength <vs [Wounded] units>","[+20]% Strength <when fighting in [Open terrain] tiles>"],
+      "uniques": ["Can move after attacking","No defensive terrain bonus","[-15]% Strength <when fighting in [Forest] tiles>","[-15]% Strength <when fighting in [Jungle] tiles>","[+20]% Strength <vs [Wounded] units>","[+20]% Strength <when fighting in [Open terrain] tiles>","[-25]% Strength <vs [Siege] units>"],
       "attackSound": "tankshot"
   },
   {
@@ -18,13 +18,13 @@
       "replaces": "Tank",
       "uniqueTo": "Neuroil",
       "movement": 4,
-      "strength": 100,
+      "strength": 125,
       "range": 1,
-      "rangedStrength": 90
+      "rangedStrength": 100,
       "cost": 700,
       "requiredTech": "Combined Arms",
       "requiredResource": "Energy"
-      "uniques": ["Can move after attacking","No defensive terrain bonus","[-15]% Strength <when fighting in [Forest] tiles>","[-15]% Strength <when fighting in [Jungle] tiles>","[+20]% Strength <vs [Wounded] units>","[+20]% Strength <when fighting in [Open terrain] tiles>"],
+      "uniques": ["Can move after attacking","No defensive terrain bonus","[-15]% Strength <when fighting in [Forest] tiles>","[-15]% Strength <when fighting in [Jungle] tiles>","[+20]% Strength <vs [Wounded] units>","[+20]% Strength <when fighting in [Open terrain] tiles>","[-25]% Strength <vs [Siege] units>"],
       "attackSound": "missile"
   },
   {
@@ -34,6 +34,8 @@
       "replaces": "Fighter",
       "movement": 8,
       "strength": 200,
+      "range": 1,
+      "rangedStrength": 200,
       "cost": 1200,
       "requiredTech": "Radar",
       "requiredResource": "Energy"
