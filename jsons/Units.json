@@ -1,7 +1,4 @@
 [
-  
-  /Modern era/
-  
   {
       "name": "'Turtle' class",
       "unitType": "Armored",
@@ -47,9 +44,6 @@
       "uniques": ["[1] additional attacks per turn","No defensive terrain bonus","All tiles cost 1 movement","Unable to capture cities","May travel on Water tiles without embarking","Eliminates combat penalty for attacking over a river","Eliminates combat penalty for attacking across a coast"],
       "attackSound": "missile"
   },
-  
-  /Atomic era/
-  
   {
       "name": "'Turtle' hevy-type",
       "unitType": "Armored",
