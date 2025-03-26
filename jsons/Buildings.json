@@ -7,7 +7,6 @@
     "gold": 10,
     "science": 2,
     "requiredResource": "Iron",
-    "requiredNearbyImprovedResources": ["Iron"],
     "requiredTech": "Iron Working",
   },
   {
