@@ -6,7 +6,7 @@
     "uniques": ["Provides [1] [Energy]","Will not be displayed in Civilopedia","Requires at least [5] population"],
     "gold": 10,
     "science": 2,
-    "requiredResource": "Iron",
+    "requiredNearbyImprovedResources": ["Iron"],
     "requiredTech": "Iron Working",
   },
   {
@@ -16,7 +16,7 @@
     "uniques": ["Provides [3] [Energy]","Will not be displayed in Civilopedia","Requires at least [8] population"],
     "gold": 30,
     "science": 5,
-    "requiredResource": "Coal",
+    "requiredNearbyImprovedResources": ["Coal"],
     "requiredTech": "Industrialization",
   }, 
   {
@@ -26,7 +26,7 @@
     "uniques": ["Provides [5] [Energy]","Will not be displayed in Civilopedia","Requires at least [14] population"],
     "gold": 50,
     "science": 7,
-    "requiredResource": "Oil",
+    "requiredNearbyImprovedResources": ["Oil"],
     "requiredTech": "Biology",
   },
   {
@@ -36,7 +36,7 @@
     "uniques": ["Provides [4] [Energy]","Will not be displayed in Civilopedia","Requires at least [16] population"],
     "gold": 65,
     "science": 9,
-    "requiredResource": "Aluminum",
+    "requiredNearbyImprovedResources": ["Aluminum"],
     "requiredTech": "Electricity",
   }, 
   {
@@ -46,7 +46,7 @@
     "uniques": ["Provides [10] [Energy]","Will not be displayed in Civilopedia","Requires at least [20] population"],
     "gold": 90,
     "science": 15,
-    "requiredResource": "Uranium",
+    "requiredNearbyImprovedResources": ["Uranium"],
     "requiredTech": "Atomic Theory",
   },
 ]
