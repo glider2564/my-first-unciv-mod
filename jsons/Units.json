@@ -13,22 +13,6 @@
       "attackSound": "tankshot"
   },
   {
-      "name": "'Small-aerial swarm'",
-      "unitType": "Fighter",
-      "uniqueTo": "Neuroil",
-      "replaces": "Triplane",
-      "movement": 1,
-      "strength": 60,
-      "range": 4,
-      "rangedStrength": 60,
-      "interceptRange": 1,
-      "cost": 650,
-      "requiredTech": "Flight",
-      "requiredResource": "Energy"
-      "uniques": ["[2] additional attacks per turn","[65]% chance to intercept air attacks","[2] extra interceptions may be made per turn"],
-      "attackSound": "missile"
-  },
-  {
       "name": "Erly 'Large-aerial Type'",
       "unitType": "Helicopter",
       "uniqueTo": "Neuroil",
@@ -71,22 +55,6 @@
       "requiredTech": "Radar",
       "requiredResource": "Energy"
       "uniques": ["No defensive terrain bonus","All tiles cost 1 movement","Unable to capture cities","May travel on Water tiles without embarking","Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast","[1] additional attacks per turn","[80]% chance to intercept air attacks","[+30]% Strength <vs [Armored] units>"]
-      "attackSound": "missile"
-  },
-  {
-      "name": "'Medium-aerial swarm'",
-      "unitType": "Fighter",
-      "uniqueTo": "Neuroil",
-      "replaces": "Fighter",
-      "movement": 1,
-      "strength": 80,
-      "range": 4,
-      "rangedStrength": 80,
-      "interceptRange": 1,
-      "cost": 1000,
-      "requiredTech": "Radar",
-      "requiredResource": "Energy"
-      "uniques": ["[2] additional attacks per turn","[100]% chance to intercept air attacks","[2] extra interceptions may be made per turn"],
       "attackSound": "missile"
   },
   {
