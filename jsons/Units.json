@@ -1,4 +1,7 @@
 [
+  
+  /Modern era/
+  
   {
       "name": "'Turtle' class",
       "unitType": "Armored",
@@ -12,6 +15,41 @@
       "uniques": ["Can move after attacking","No defensive terrain bonus","[-15]% Strength <when fighting in [Forest] tiles>","[-15]% Strength <when fighting in [Jungle] tiles>","[+20]% Strength <vs [Wounded] units>","[+20]% Strength <when fighting in [Open terrain] tiles>","[-25]% Strength <vs [Siege] units>","Destroys tile improvements when attacking"],
       "attackSound": "tankshot"
   },
+  {
+      "name": "'Small-aerial swarm'",
+      "unitType": "Fighter",
+      "uniqueTo": "Neuroil",
+      "replaces": "Fighter",
+      "movement": 1,
+      "strength": 60,
+      "range": 4,
+      "rangedStrength": 60,
+      "interceptRange": 1,
+      "cost": 650,
+      "requiredTech": "Flight",
+      "requiredResource": "Energy"
+      "uniques": ["[2] additional attacks per turn","[65]% chance to intercept air attacks","[2] extra interceptions may be made per turn"],
+      "attackSound": "missile"
+  },
+  {
+      "name": "Erly 'Large-aerial Type'",
+      "unitType": "Helicopter",
+      "uniqueTo": "Neuroil",
+      "replaces": "Great War Bomber",
+      "movement": 1,
+      "strength": 115,
+      "range": 4,
+      "rangedStrength": 80,
+      "interceptRange": 1,
+      "cost": 900,
+      "requiredTech": "Radar",
+      "requiredResource": "Energy"
+      "uniques": ["[1] additional attacks per turn","No defensive terrain bonus","All tiles cost 1 movement","Unable to capture cities","May travel on Water tiles without embarking","Eliminates combat penalty for attacking over a river","Eliminates combat penalty for attacking across a coast"],
+      "attackSound": "missile"
+  },
+  
+  /Atomic era/
+  
   {
       "name": "'Turtle' hevy-type",
       "unitType": "Armored",
