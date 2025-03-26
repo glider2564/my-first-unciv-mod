@@ -16,7 +16,7 @@
       "name": "'Small-aerial swarm'",
       "unitType": "Fighter",
       "uniqueTo": "Neuroil",
-      "replaces": "Fighter",
+      "replaces": "Triplane",
       "movement": 1,
       "strength": 60,
       "range": 4,
@@ -33,13 +33,13 @@
       "unitType": "Helicopter",
       "uniqueTo": "Neuroil",
       "replaces": "Great War Bomber",
-      "movement": 1,
+      "movement": 6,
       "strength": 115,
-      "range": 4,
+      "range": 1,
       "rangedStrength": 80,
       "interceptRange": 1,
       "cost": 900,
-      "requiredTech": "Radar",
+      "requiredTech": "Flight",
       "requiredResource": "Energy"
       "uniques": ["[1] additional attacks per turn","No defensive terrain bonus","All tiles cost 1 movement","Unable to capture cities","May travel on Water tiles without embarking","Eliminates combat penalty for attacking over a river","Eliminates combat penalty for attacking across a coast"],
       "attackSound": "missile"
@@ -99,7 +99,7 @@
       "range": 1,
       "rangedStrength": 300,
       "cost": 2500,
-      "requiredTech": "Atomic Theory",
+      "requiredTech": "Electronics",
       "requiredResource": "Energy"
       "uniques": ["No defensive terrain bonus","All tiles cost 1 movement","Unable to capture cities","May travel on Water tiles without embarking","Eliminates combat penalty for attacking over a river","Eliminates combat penalty for attacking across a coast","[1] additional attacks per turn","[90]% chance to intercept air attacks","Can carry [3] [Aircraft] units"],
       "attackSound": "missile"
