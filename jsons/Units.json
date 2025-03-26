@@ -57,19 +57,4 @@
       "uniques": ["No defensive terrain bonus","All tiles cost 1 movement","Unable to capture cities","May travel on Water tiles without embarking","Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast","[1] additional attacks per turn","[80]% chance to intercept air attacks","[+30]% Strength <vs [Armored] units>"]
       "attackSound": "missile"
   },
-  {
-      "name": "'Capital-aerial class'",
-      "unitType": "Helicopter",
-      "uniqueTo": "Neuroil",
-      "replaces": "Carrier",
-      "movement": 3,
-      "strength": 450,
-      "range": 1,
-      "rangedStrength": 300,
-      "cost": 2500,
-      "requiredTech": "Electronics",
-      "requiredResource": "Energy"
-      "uniques": ["No defensive terrain bonus","All tiles cost 1 movement","Unable to capture cities","May travel on Water tiles without embarking","Eliminates combat penalty for attacking over a river","Eliminates combat penalty for attacking across a coast","[1] additional attacks per turn","[90]% chance to intercept air attacks","Can carry [3] [Aircraft] units"],
-      "attackSound": "missile"
-  },
 ]
