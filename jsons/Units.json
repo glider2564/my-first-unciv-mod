@@ -13,6 +13,22 @@
       "attackSound": "tankshot"
   },
   {
+       "name": "'Small-aerial swarm'",
+       "unitType": "Fighter",
+       "uniqueTo": "Neuroil",
+       "replaces": "Fighter",
+       "movement": 1,
+       "strength": 60,
+       "range": 3,
+       "rangedStrength": 60,
+       "interceptRange": 1,
+       "cost": 650,
+       "requiredTech": "Flight",
+       "requiredResource": "Energy"
+       "uniques": ["[1] additional attacks per turn","[100]% chance to intercept air attacks","[2] extra interceptions may be made per turn"],
+       "attackSound": "missile"
+  },
+  {
       "name": "Erly 'Large-aerial Type'",
       "unitType": "Helicopter",
       "uniqueTo": "Neuroil",
