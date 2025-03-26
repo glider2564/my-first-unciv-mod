@@ -74,6 +74,22 @@
       "attackSound": "missile"
   },
   {
+       "name": "'Medium-aerial swarm'",
+       "unitType": "Fighter",
+       "uniqueTo": "Neuroil",
+       "replaces": "Fighter",
+       "movement": 1,
+       "strength": 80,
+       "range": 4,
+       "rangedStrength": 80,
+       "interceptRange": 1,
+       "cost": 800,
+       "requiredTech": "Radar",
+       "requiredResource": "Energy"
+       "uniques": ["[2] additional attacks per turn","[100]% chance to intercept air attacks","[2] extra interceptions may be made per turn"],
+       "attackSound": "missile"
+  },
+  {
        "name": "'Capital-aerial class'",
        "unitType": "Helicopter",
        "uniqueTo": "Neuroil",
