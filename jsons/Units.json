@@ -4,12 +4,12 @@
       "unitType": "Armored",
       "replaces": "Landship",
       "uniqueTo": "Neuroil",
-      "movement": 4,
+      "movement": 2,
       "strength": 85,
       "cost": 550,
       "requiredTech": "Combustion",
       "requiredResource": "Energy"
-      "uniques": ["Can move after attacking","No defensive terrain bonus","[-15]% Strength <when fighting in [Forest] tiles>","[-15]% Strength <when fighting in [Jungle] tiles>","[+20]% Strength <vs [Wounded] units>","[+20]% Strength <when fighting in [Open terrain] tiles>","[-25]% Strength <vs [Siege] units>","Destroys tile improvements when attacking"],
+      "uniques": ["Can move after attacking","No defensive terrain bonus","[-30]% Strength <when fighting in [Forest] tiles>","[-30]% Strength <when fighting in [Jungle] tiles>","[+20]% Strength <vs [Wounded] units>","[+30]% Strength <when fighting in [Open terrain] tiles>","[-75]% Strength <vs [Siege] units> <when fighting in [Open terrain] tiles> <when defending>","No movement cost to pillage"],
       "attackSound": "tankshot"
   },
   {
@@ -33,9 +33,9 @@
       "unitType": "Helicopter",
       "uniqueTo": "Neuroil",
       "replaces": "Great War Bomber",
-      "movement": 1,
+      "movement": 4,
       "strength": 115,
-      "range": 4,
+      "range": 1,
       "rangedStrength": 80,
       "interceptRange": 1,
       "cost": 900,
@@ -49,12 +49,12 @@
       "unitType": "Armored",
       "replaces": "Tank",
       "uniqueTo": "Neuroil",
-      "movement": 4,
+      "movement": 3,
       "strength": 125,
       "cost": 700,
       "requiredTech": "Combined Arms",
       "requiredResource": "Energy"
-      "uniques": ["Can move after attacking","No defensive terrain bonus","[-15]% Strength <when fighting in [Forest] tiles>","[-15]% Strength <when fighting in [Jungle] tiles>","[+20]% Strength <vs [Wounded] units>","[+20]% Strength <when fighting in [Open terrain] tiles>","[-25]% Strength <vs [Siege] units>","Destroys tile improvements when attacking"],
+      "uniques": ["Can move after attacking","No defensive terrain bonus","[-15]% Strength <when fighting in [Forest] tiles>","[-15]% Strength <when fighting in [Jungle] tiles>","[+20]% Strength <vs [Wounded] units>","[+20]% Strength <when fighting in [Open terrain] tiles>","[-75]% Strength <vs [Siege] units>"],
       "attackSound": "missile"
   },
   {
@@ -79,14 +79,14 @@
        "uniqueTo": "Neuroil",
        "replaces": "Fighter",
        "movement": 1,
-       "strength": 80,
+       "strength": 90,
        "range": 4,
-       "rangedStrength": 80,
+       "rangedStrength": 90,
        "interceptRange": 1,
        "cost": 800,
        "requiredTech": "Radar",
        "requiredResource": "Energy"
-       "uniques": ["[2] additional attacks per turn","[100]% chance to intercept air attacks","[2] extra interceptions may be made per turn"],
+       "uniques": ["[1] additional attacks per turn","[100]% chance to intercept air attacks","[2] extra interceptions may be made per turn"],
        "attackSound": "missile"
   },
   {
