@@ -9,8 +9,10 @@
       "cost": 550,
       "requiredTech": "Combustion",
       "requiredResource": "Energy"
-      "uniques": ["Can move after attacking","No defensive terrain bonus","[-30]% Strength <when fighting in [Forest] tiles>","[-30]% Strength <when fighting in [Jungle] tiles>","[+20]% Strength <vs [Wounded] units>","[+30]% Strength <when fighting in [Open terrain] tiles>","[-75]% Strength <vs [Siege] units> <when fighting in [Open terrain] tiles> <when defending>","No movement cost to pillage"],
-      "attackSound": "tankshot"
+      "obsoleteTech": "Combined Arms",
+      "upgradesTo": "'Turtle' hevy-type",
+      "uniques": ["Can move after attacking","No defensive terrain bonus","[-30]% Strength <when fighting in [Forest] tiles>","[-30]% Strength <when fighting in [Jungle] tiles>","[+30]% Strength <when fighting in [Open terrain] tiles> <when attacking>","[-75]% Strength <vs [Siege] units> <when fighting in [Open terrain] tiles> <when defending>","No movement cost to pillage"],
+      "attackSound": "missile"
   },
   {
        "name": "'Small-aerial swarm'",
@@ -25,6 +27,8 @@
        "cost": 650,
        "requiredTech": "Flight",
        "requiredResource": "Energy"
+       "obsoleteTech": "Radar",
+       "upgradesTo": "'Medium-aerial swarm'",
        "uniques": ["[1] additional attacks per turn","[100]% chance to intercept air attacks","[2] extra interceptions may be made per turn"],
        "attackSound": "missile"
   },
@@ -41,6 +45,8 @@
       "cost": 900,
       "requiredTech": "Flight",
       "requiredResource": "Energy"
+      "obsoleteTech": "Radar",
+      "upgradesTo": "'Large-aerial class'",
       "uniques": ["[1] additional attacks per turn","No defensive terrain bonus","All tiles cost 1 movement","Unable to capture cities","May travel on Water tiles without embarking","Eliminates combat penalty for attacking over a river","Eliminates combat penalty for attacking across a coast"],
       "attackSound": "missile"
   },
@@ -54,7 +60,7 @@
       "cost": 700,
       "requiredTech": "Combined Arms",
       "requiredResource": "Energy"
-      "uniques": ["Can move after attacking","No defensive terrain bonus","[-15]% Strength <when fighting in [Forest] tiles>","[-15]% Strength <when fighting in [Jungle] tiles>","[+20]% Strength <vs [Wounded] units>","[+20]% Strength <when fighting in [Open terrain] tiles>","[-75]% Strength <vs [Siege] units>"],
+      "uniques": ["Can move after attacking","No defensive terrain bonus","[-15]% Strength <when fighting in [Forest] tiles>","[-15]% Strength <when fighting in [Jungle] tiles>","[+20]% Strength <when fighting in [Open terrain] tiles>","[-75]% Strength <vs [Siege] units>"],
       "attackSound": "missile"
   },
   {
