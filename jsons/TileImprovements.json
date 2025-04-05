@@ -1,0 +1,9 @@
+[
+  {
+		"name": "Manufactory",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"production": 4,
+		"uniques": ["Great Improvement", "[+1 Production] <after discovering [Chemistry]>", "Will not be replaced by automated units",
+            "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]","All adjacent units heal [+10] HP when healing <after discovering [Industrialization]>"]
+	},
+]
