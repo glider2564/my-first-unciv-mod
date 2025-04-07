@@ -110,4 +110,14 @@
        "uniques": ["No defensive terrain bonus","All tiles cost 1 movement","Unable to capture cities","May travel on Water tiles without embarking","Eliminates combat penalty for attacking over a river","Eliminates combat penalty for attacking across a coast","[1] additional attacks per turn","[90]% chance to intercept air attacks","Can carry [4] [Aircraft] units"],
        "attackSound": "missile"
   },
+  {
+       "name": "baggage train",
+       "unitType": "Civilian",
+       "movement": 1,
+       "uniques": ["All adjacent units heal [+5] HP when healing"]
+       "cost": 120
+       "requiredResource": "Horses",
+       "requiredTech": "The Wheel",
+       "maintenance": 1,
+  },    
 ]
