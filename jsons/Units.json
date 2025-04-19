@@ -6,12 +6,12 @@
       "uniqueTo": "Neuroil",
       "movement": 2,
       "strength": 85,
-      "cost": 550,
+      "cost": 300,
       "requiredTech": "Combustion",
       "requiredResource": "Energy"
       "obsoleteTech": "Combined Arms",
       "upgradesTo": "'Turtle' hevy-type",
-      "uniques": ["Can move after attacking","No defensive terrain bonus","[-30]% Strength <when fighting in [Forest] tiles>","[-30]% Strength <when fighting in [Jungle] tiles>","[+30]% Strength <when fighting in [Open terrain] tiles> <when attacking>","[-75]% Strength <vs [Siege] units> <when fighting in [Open terrain] tiles> <when defending>","No movement cost to pillage"],
+      "uniques": ["Can move after attacking","No defensive terrain bonus","[-30]% Strength <when fighting in [Forest] tiles>","[-30]% Strength <when fighting in [Jungle] tiles>","[+30]% Strength <when fighting in [Open terrain] tiles> <when attacking>","[-75]% Strength <vs [Siege] units> <when fighting in [Open terrain] tiles> <when defending>","No movement cost to pillage","Unbuildable"],
       "attackSound": "missile"
   },
   {
@@ -24,12 +24,12 @@
        "range": 3,
        "rangedStrength": 60,
        "interceptRange": 1,
-       "cost": 650,
+       "cost": 600,
        "requiredTech": "Flight",
        "requiredResource": "Energy"
        "obsoleteTech": "Radar",
        "upgradesTo": "'Medium-aerial swarm'",
-       "uniques": ["[1] additional attacks per turn","[100]% chance to intercept air attacks","[2] extra interceptions may be made per turn"],
+       "uniques": ["[1] additional attacks per turn","[100]% chance to intercept air attacks","[2] extra interceptions may be made per turn","Unbuildable"],
        "attackSound": "missile"
   },
   {
@@ -42,12 +42,12 @@
       "range": 1,
       "rangedStrength": 80,
       "interceptRange": 1,
-      "cost": 900,
+      "cost": 800,
       "requiredTech": "Flight",
       "requiredResource": "Energy"
       "obsoleteTech": "Radar",
       "upgradesTo": "'Large-aerial class'",
-      "uniques": ["[1] additional attacks per turn","No defensive terrain bonus","All tiles cost 1 movement","Unable to capture cities","May travel on Water tiles without embarking","Eliminates combat penalty for attacking over a river","Eliminates combat penalty for attacking across a coast"],
+      "uniques": ["[1] additional attacks per turn","No defensive terrain bonus","All tiles cost 1 movement","Unable to capture cities","May travel on Water tiles without embarking","Eliminates combat penalty for attacking over a river","Eliminates combat penalty for attacking across a coast","Unbuildable"],
       "attackSound": "missile"
   },
   {
@@ -57,10 +57,10 @@
       "uniqueTo": "Neuroil",
       "movement": 3,
       "strength": 125,
-      "cost": 700,
+      "cost": 500,
       "requiredTech": "Combined Arms",
       "requiredResource": "Energy"
-      "uniques": ["Can move after attacking","No defensive terrain bonus","[-15]% Strength <when fighting in [Forest] tiles>","[-15]% Strength <when fighting in [Jungle] tiles>","[+20]% Strength <when fighting in [Open terrain] tiles>","[-75]% Strength <vs [Siege] units>"],
+      "uniques": ["Can move after attacking","No defensive terrain bonus","[-15]% Strength <when fighting in [Forest] tiles>","[-15]% Strength <when fighting in [Jungle] tiles>","[+20]% Strength <when fighting in [Open terrain] tiles>","[-75]% Strength <vs [Siege] units>","Unbuildable"],
       "attackSound": "missile"
   },
   {
@@ -73,10 +73,10 @@
       "range": 1,
       "rangedStrength": 200,
       "interceptRange": 1,
-      "cost": 1200,
+      "cost": 1000,
       "requiredTech": "Radar",
       "requiredResource": "Energy"
-      "uniques": ["No defensive terrain bonus","All tiles cost 1 movement","Unable to capture cities","May travel on Water tiles without embarking","Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast","[1] additional attacks per turn","[80]% chance to intercept air attacks","[+30]% Strength <vs [Armored] units>"]
+      "uniques": ["No defensive terrain bonus","All tiles cost 1 movement","Unable to capture cities","May travel on Water tiles without embarking","Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast","[1] additional attacks per turn","[80]% chance to intercept air attacks","[+30]% Strength <vs [Armored] units>","Unbuildable"]
       "attackSound": "missile"
   },
   {
@@ -89,10 +89,10 @@
        "range": 4,
        "rangedStrength": 90,
        "interceptRange": 1,
-       "cost": 800,
+       "cost": 600,
        "requiredTech": "Radar",
        "requiredResource": "Energy"
-       "uniques": ["[1] additional attacks per turn","[100]% chance to intercept air attacks","[2] extra interceptions may be made per turn"],
+       "uniques": ["[1] additional attacks per turn","[100]% chance to intercept air attacks","[2] extra interceptions may be made per turn","Unbuildable"],
        "attackSound": "missile"
   },
   {
@@ -104,20 +104,40 @@
        "strength": 350,
        "range": 1,
        "rangedStrength": 300,
-       "cost": 2500,
+       "cost": 1500,
        "requiredTech": "Electronics",
        "requiredResource": "Energy"
-       "uniques": ["No defensive terrain bonus","All tiles cost 1 movement","Unable to capture cities","May travel on Water tiles without embarking","Eliminates combat penalty for attacking over a river","Eliminates combat penalty for attacking across a coast","[1] additional attacks per turn","[90]% chance to intercept air attacks","Can carry [4] [Aircraft] units"],
+       "uniques": ["No defensive terrain bonus","All tiles cost 1 movement","Unable to capture cities","May travel on Water tiles without embarking","Eliminates combat penalty for attacking over a river","Eliminates combat penalty for attacking across a coast","[1] additional attacks per turn","[90]% chance to intercept air attacks","Can carry [4] [Aircraft] units","Unbuildable"],
        "attackSound": "missile"
   },
   {
        "name": "baggage train",
        "unitType": "Civilian",
        "movement": 1,
-       "uniques": ["All adjacent units heal [+5] HP when healing"]
-       "cost": 120
+       "uniques": ["All adjacent units heal [+5] HP when healing","Unbuildable"]
+       "cost": 45
        "requiredResource": "Horses",
        "requiredTech": "The Wheel",
-       "maintenance": 1,
-  },    
+       "maintenance": 5,
+  },
+  {
+       "name": "supply truck",
+       "unitType": "Civilian",
+       "movement": 3,
+       "uniques": ["All adjacent units heal [+10] HP when healing","Unbuildable"]
+       "cost": 90
+       "requiredResource": "Oil",
+       "requiredTech": "Combustion",
+       "maintenance": 20,
+  },
+  {
+       "name": "supply ship",
+       "unitType": "Civilian",
+       "movement": 3,
+       "uniques": ["All adjacent units heal [+15] HP when healing","Double movement in [Coast]","[+100]% Strength bonus for [Embarked] units within [1] tiles","Unbuildable"]
+       "cost": 120
+       "requiredResource": "Coal",
+       "requiredTech": "Steam Power",
+       "maintenance": 15,
+  },
 ]
