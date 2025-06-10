@@ -6,6 +6,7 @@
         "outerColor": [27,0,48],
         "style": "Barbarians",
 
-        "uniques": ["Unit will heal every turn, even if it performs an action","May heal outside of friendly territory","[+20]% XP gained from combat"]
+        "uniques": ["Unit will heal every turn, even if it performs an action","May heal outside of friendly territory",
+        "[+20]% XP gained from combat","Will not be displayed in Civilopedia"]
     }
 ]
