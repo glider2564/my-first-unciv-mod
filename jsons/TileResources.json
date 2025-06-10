@@ -1,8 +1,0 @@
-[
-  {
-    "name": "Energy",
-    "resourceType": "Strategic",
-    "uniqueTo": "Neuroil",
-    "uniques": ["Will not be displayed in Civilopedia"],
-  },
-]
