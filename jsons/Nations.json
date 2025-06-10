@@ -1,22 +1,11 @@
 [
+    //Barbarian
     {
         "name": "Neuroil",
-        "leaderName": "'unknown'",
-
-        "startBias": [Tundra],
-        "prefererredVictoryType": "Domination",
-        "startIntroPart1": "...",
-        "startIntroPart2": "...",
-        "declaringWar": "...",
-        "attacked": "...",
-        "defeated": "...",
-        "introduction": "...",
-        "tradeRequest": "...",
         "innerColor": [255,0,0],
         "outerColor": [27,0,48],
-        "cities": ["Erlin","Walf","Black Ocean","Ebel lake","Gellin","Nureburg","Ostar","Prega","Karlan","Nogburg","Sirmid","Vennea","Groir","Annd","Vizley"]
+        "style": "Barbarians",
 
-        "uniqueName": "..."
-        "uniques": ["Unit will heal every turn, even if it performsan action","May heal outside of friendly territory","[+20]% XP gained from combat"]
+        "uniques": ["Unit will heal every turn, even if it performs an action","May heal outside of friendly territory","[+20]% XP gained from combat"]
     }
 ]
