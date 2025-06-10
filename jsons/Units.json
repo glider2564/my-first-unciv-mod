@@ -11,17 +11,17 @@
       "requiredResource": "Energy"
       "obsoleteTech": "Combined Arms",
       "upgradesTo": "'Turtle' hevy-type",
-      "uniques": ["Can move after attacking","No defensive terrain bonus","[-30]% Strength <when fighting in [Forest] tiles>","[-30]% Strength <when fighting in [Jungle] tiles>","[+30]% Strength <when fighting in [Open terrain] tiles> <when attacking>","[-75]% Strength <vs [Siege] units> <when fighting in [Open terrain] tiles> <when defending>","No movement cost to pillage","Unbuildable","Can be purchased with [Gold] [in all cities]"],
+      "uniques": ["Can move after attacking","No defensive terrain bonus","[-30]% Strength <when fighting in [Forest] tiles>","[-30]% Strength <when fighting in [Jungle] tiles>","[+30]% Strength <when fighting in [Open terrain] tiles> <when attacking>","[-75]% Strength <vs [Siege] units> <when fighting in [Open terrain] tiles> <when defending>","No movement cost to pillage"],
       "attackSound": "missile"
   },
   {
-       "name": "'Small-aerial swarm'",
-       "unitType": "Fighter",
+       "name": "'Small-aerial' swarm",
+       "unitType": "Helicopter",
        "uniqueTo": "Neuroil",
        "replaces": "Triplane",
-       "movement": 1,
+       "movement": 2,
        "strength": 60,
-       "range": 3,
+       "range": 1,
        "rangedStrength": 60,
        "interceptRange": 1,
        "cost": 600,
@@ -29,11 +29,11 @@
        "requiredResource": "Energy"
        "obsoleteTech": "Radar",
        "upgradesTo": "'Medium-aerial swarm'",
-       "uniques": ["[1] additional attacks per turn","[100]% chance to intercept air attacks","[2] extra interceptions may be made per turn","Unbuildable","Can be purchased with [Gold] [in all cities]"],
+       "uniques": ["[1] additional attacks per turn","No defensive terrain bonus","All tiles cost 1 movement","May travel on Water tiles without embarking","Eliminates combat penalty for attacking over a river","Eliminates combat penalty for attacking across a coast"],
        "attackSound": "missile"
   },
   {
-      "name": "Erly 'Large-aerial Type'",
+      "name": "'Erly' Large-aerial Type",
       "unitType": "Helicopter",
       "uniqueTo": "Neuroil",
       "replaces": "Great War Bomber",
@@ -47,7 +47,7 @@
       "requiredResource": "Energy"
       "obsoleteTech": "Radar",
       "upgradesTo": "'Large-aerial class'",
-      "uniques": ["[1] additional attacks per turn","No defensive terrain bonus","All tiles cost 1 movement","Unable to capture cities","May travel on Water tiles without embarking","Eliminates combat penalty for attacking over a river","Eliminates combat penalty for attacking across a coast","Unbuildable","Can be purchased with [Gold] [in all cities]"],
+      "uniques": ["[1] additional attacks per turn","No defensive terrain bonus","All tiles cost 1 movement","May travel on Water tiles without embarking","Eliminates combat penalty for attacking over a river","Eliminates combat penalty for attacking across a coast"],
       "attackSound": "missile"
   },
   {
@@ -64,7 +64,7 @@
       "attackSound": "missile"
   },
   {
-      "name": "'Large-aerial class'",
+      "name": "'Large-aerial' class",
       "unitType": "Helicopter",
       "uniqueTo": "Neuroil",
       "replaces": "Bomber",
@@ -76,27 +76,27 @@
       "cost": 1000,
       "requiredTech": "Radar",
       "requiredResource": "Energy"
-      "uniques": ["No defensive terrain bonus","All tiles cost 1 movement","Unable to capture cities","May travel on Water tiles without embarking","Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast","[1] additional attacks per turn","[80]% chance to intercept air attacks","[+30]% Strength <vs [Armored] units>","Unbuildable","Can be purchased with [Gold] [in all cities]"]
+      "uniques": ["No defensive terrain bonus","All tiles cost 1 movement","May travel on Water tiles without embarking","Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast","[1] additional attacks per turn","[80]% chance to intercept air attacks","[+30]% Strength <vs [Armored] units>","Unbuildable","Can be purchased with [Gold] [in all cities]"]
       "attackSound": "missile"
   },
   {
-       "name": "'Medium-aerial swarm'",
-       "unitType": "Fighter",
+       "name": "'Medium-aerial' swarm",
+       "unitType": "Helicopter",
        "uniqueTo": "Neuroil",
        "replaces": "Fighter",
-       "movement": 1,
+       "movement": 4,
        "strength": 90,
-       "range": 4,
+       "range": 1,
        "rangedStrength": 90,
        "interceptRange": 1,
        "cost": 600,
        "requiredTech": "Radar",
        "requiredResource": "Energy"
-       "uniques": ["[1] additional attacks per turn","[100]% chance to intercept air attacks","[2] extra interceptions may be made per turn","Unbuildable","Can be purchased with [Gold] [in all cities]"],
+       "uniques": ["[1] additional attacks per turn","No defensive terrain bonus","All tiles cost 1 movement","May travel on Water tiles without embarking","Eliminates combat penalty for attacking over a river","Eliminates combat penalty for attacking across a coast",],
        "attackSound": "missile"
   },
   {
-       "name": "'Capital-aerial class'",
+       "name": "'Capital-aerial' class",
        "unitType": "Helicopter",
        "uniqueTo": "Neuroil",
        "replaces": "Carrier",
@@ -109,35 +109,5 @@
        "requiredResource": "Energy"
        "uniques": ["No defensive terrain bonus","All tiles cost 1 movement","Unable to capture cities","May travel on Water tiles without embarking","Eliminates combat penalty for attacking over a river","Eliminates combat penalty for attacking across a coast","[1] additional attacks per turn","[90]% chance to intercept air attacks","Can carry [4] [Aircraft] units","Unbuildable","Can be purchased with [Gold] [in all cities]"],
        "attackSound": "missile"
-  },
-  {
-       "name": "baggage train",
-       "unitType": "Civilian",
-       "movement": 1,
-       "uniques": ["All adjacent units heal [+5] HP when healing","Unbuildable"]
-       "cost": 45
-       "requiredResource": "Horses",
-       "requiredTech": "The Wheel",
-       "maintenance": 5,
-  },
-  {
-       "name": "supply truck",
-       "unitType": "Civilian",
-       "movement": 3,
-       "uniques": ["All adjacent units heal [+10] HP when healing","Unbuildable"]
-       "cost": 90
-       "requiredResource": "Oil",
-       "requiredTech": "Combustion",
-       "maintenance": 20,
-  },
-  {
-       "name": "supply ship",
-       "unitType": "Civilian",
-       "movement": 3,
-       "uniques": ["All adjacent units heal [+15] HP when healing","Double movement in [Coast]","[+100]% Strength bonus for [Embarked] units within [1] tiles","Unbuildable"]
-       "cost": 120
-       "requiredResource": "Coal",
-       "requiredTech": "Steam Power",
-       "maintenance": 15,
   },
 ]
