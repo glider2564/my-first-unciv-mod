@@ -8,7 +8,6 @@
       "strength": 85,
       "cost": 300,
       "requiredTech": "Combustion",
-      "requiredResource": "Energy"
       "obsoleteTech": "Combined Arms",
       "upgradesTo": "'Turtle' hevy-type",
       "uniques": ["Can move after attacking","No defensive terrain bonus","[-30]% Strength <when fighting in [Forest] tiles>","[-30]% Strength <when fighting in [Jungle] tiles>","[+30]% Strength <when fighting in [Open terrain] tiles> <when attacking>","[-75]% Strength <vs [Siege] units> <when fighting in [Open terrain] tiles> <when defending>","No movement cost to pillage"],
@@ -26,7 +25,6 @@
        "interceptRange": 1,
        "cost": 600,
        "requiredTech": "Flight",
-       "requiredResource": "Energy"
        "obsoleteTech": "Radar",
        "upgradesTo": "'Medium-aerial swarm'",
        "uniques": ["[1] additional attacks per turn","No defensive terrain bonus","All tiles cost 1 movement","May travel on Water tiles without embarking","Eliminates combat penalty for attacking over a river","Eliminates combat penalty for attacking across a coast"],
@@ -44,7 +42,6 @@
       "interceptRange": 1,
       "cost": 800,
       "requiredTech": "Flight",
-      "requiredResource": "Energy"
       "obsoleteTech": "Radar",
       "upgradesTo": "'Large-aerial class'",
       "uniques": ["[1] additional attacks per turn","No defensive terrain bonus","All tiles cost 1 movement","May travel on Water tiles without embarking","Eliminates combat penalty for attacking over a river","Eliminates combat penalty for attacking across a coast"],
@@ -59,7 +56,6 @@
       "strength": 125,
       "cost": 500,
       "requiredTech": "Combined Arms",
-      "requiredResource": "Energy"
       "uniques": ["Can move after attacking","No defensive terrain bonus","[-15]% Strength <when fighting in [Forest] tiles>","[-15]% Strength <when fighting in [Jungle] tiles>","[+20]% Strength <when fighting in [Open terrain] tiles>","[-75]% Strength <vs [Siege] units>","Unbuildable","Can be purchased with [Gold] [in all cities]"],
       "attackSound": "missile"
   },
@@ -75,7 +71,6 @@
       "interceptRange": 1,
       "cost": 1000,
       "requiredTech": "Radar",
-      "requiredResource": "Energy"
       "uniques": ["No defensive terrain bonus","All tiles cost 1 movement","May travel on Water tiles without embarking","Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast","[1] additional attacks per turn","[80]% chance to intercept air attacks","[+30]% Strength <vs [Armored] units>","Unbuildable","Can be purchased with [Gold] [in all cities]"]
       "attackSound": "missile"
   },
@@ -91,7 +86,6 @@
        "interceptRange": 1,
        "cost": 600,
        "requiredTech": "Radar",
-       "requiredResource": "Energy"
        "uniques": ["[1] additional attacks per turn","No defensive terrain bonus","All tiles cost 1 movement","May travel on Water tiles without embarking","Eliminates combat penalty for attacking over a river","Eliminates combat penalty for attacking across a coast",],
        "attackSound": "missile"
   },
@@ -106,7 +100,6 @@
        "rangedStrength": 300,
        "cost": 1500,
        "requiredTech": "Electronics",
-       "requiredResource": "Energy"
        "uniques": ["No defensive terrain bonus","All tiles cost 1 movement","Unable to capture cities","May travel on Water tiles without embarking","Eliminates combat penalty for attacking over a river","Eliminates combat penalty for attacking across a coast","[1] additional attacks per turn","[90]% chance to intercept air attacks","Can carry [4] [Aircraft] units","Unbuildable","Can be purchased with [Gold] [in all cities]"],
        "attackSound": "missile"
   },
