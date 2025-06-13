@@ -26,7 +26,6 @@
        "cost": 600,
        "requiredTech": "Flight",
        "obsoleteTech": "Radar",
-       "upgradesTo": "'Medium-aerial swarm'",
        "uniques": ["[1] additional attacks per turn","No defensive terrain bonus","All tiles cost 1 movement","May travel on Water tiles without embarking","Eliminates combat penalty for attacking over a river","Eliminates combat penalty for attacking across a coast"],
        "attackSound": "missile"
   },
@@ -43,7 +42,6 @@
       "cost": 800,
       "requiredTech": "Flight",
       "obsoleteTech": "Radar",
-      "upgradesTo": "'Large-aerial class'",
       "uniques": ["[1] additional attacks per turn","No defensive terrain bonus","All tiles cost 1 movement","May travel on Water tiles without embarking","Eliminates combat penalty for attacking over a river","Eliminates combat penalty for attacking across a coast","No movement cost to pillage"],
       "attackSound": "missile"
   },
