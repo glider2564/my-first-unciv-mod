@@ -91,7 +91,7 @@
        "name": "'Capital-aerial' class",
        "unitType": "Helicopter",
        "uniqueTo": "Barbarians",
-       "replaces": "Carrier",
+       "replaces": "Atomic Bomb",
        "movement": 4,
        "strength": 350,
        "range": 1,
