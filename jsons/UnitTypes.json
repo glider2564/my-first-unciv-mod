@@ -1,0 +1,7 @@
+[
+  {
+     "name": "neuroi",
+     "movementType": "Land",
+     "uniques": ["Can only attack [non-[City]] units"]
+  }
+]
