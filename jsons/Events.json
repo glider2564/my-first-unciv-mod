@@ -1,0 +1,10 @@
+[
+  {
+    "name": "First ecounter",
+    "text": "A powerful forse has appeared. many who meet them, names them as Barbarians, while other states gave them codename: Neuroi.
+                 as panic start to spread trough the world, it's up to you to take actions agaist them!",
+    "choices": [{ "text": "What?",
+                  "uniques": ["[-1 Happiness] [in all cities] <for [20] turns>",
+                              "Free ['Large-aerial' class] appears <for [Barbarians] Civilization> <hidden from users>"]}]
+  }
+]
