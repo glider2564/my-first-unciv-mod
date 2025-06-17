@@ -1,6 +1,6 @@
-[
-  {
+{
     "name":"Global uniques",
-    "uniques":["Triggers a [First ecounter] event <upon turn end> <after turn number [100]> <before turn number [101]>"]
-  }
-]
+    "uniques":[
+      "Triggers a [First ecounter] event <upon turn end> <after turn number [100]> <before turn number [101]>"
+    ]
+}
