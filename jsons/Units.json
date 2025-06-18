@@ -67,9 +67,9 @@
        "range": 1,
        "rangedStrength": 500,
        "cost": 1500,
-       "uniques": ["No defensive terrain bonus","All tiles cost 1 movement","May travel on Water tiles without embarking","Eliminates combat penalty for attacking over a river","Eliminates combat penalty for attacking across a coast","[1] additional attacks per turn","[90]% chance to intercept air attacks",
+       "uniques": ["No defensive terrain bonus","All tiles cost 1 movement","May travel on Water tiles without embarking","Eliminates combat penalty for attacking over a river","Eliminates combat penalty for attacking across a coast","[1] additional attacks per turn","[70]% chance to intercept air attacks",
           "Will not be displayed in Civilopedia","Unbuildable","Cannot be purchased","Uncapturable","Cannot embark","[+500]% Strength <vs cities>",
-          "Free ['Small-aerial' swarm] appears <upon turn end> <when [Wounded]> <hidden from users>"],
+          "Free ['Small-aerial' swarm] appears <upon turn start> <when [Wounded]> <[3] times> <hidden from users>"],
        "attackSound": "missile"
   },
   {
@@ -80,9 +80,9 @@
        "range": 3,
        "rangedStrength": 500,
        "uniques": ["No defensive terrain bonus","May travel on Water tiles without embarking",
-                   "Will not be displayed in Civilopedia","Unbuildable","Cannot be purchased","Uncapturable","Cannot embark","[+500]% Strength <vs cities>","Cannot move","[90]% chance to intercept air attacks",
-                   "Free ['Large-aerial' class] appears <upon turn end> <after turn number [105]> <hidden from users> <with [30]% chance>",
-                   "Free ['Turtle' class] appears <upon turn end> <after turn number [105]> <hidden from users> <with [40]% chance>",
-                   "Free ['Capital-aerial' class] appears <upon turn end> <after turn number [105]> <hidden from users> <with [20]% chance>",],
+                   "Will not be displayed in Civilopedia","Unbuildable","Cannot be purchased","Uncapturable","Cannot embark","[+500]% Strength <vs cities>","Cannot move","[80]% chance to intercept air attacks",
+                   "Free ['Large-aerial' class] appears <upon turn end> <hidden from users> <with [30]% chance>",
+                   "Free ['Turtle' class] appears <upon turn end> <hidden from users> <with [45]% chance>",
+                   "Free ['Capital-aerial' class] appears <upon turn end> <hidden from users> <with [15]% chance>"],
   },
 ]
